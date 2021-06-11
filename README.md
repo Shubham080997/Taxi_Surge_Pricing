@@ -1,13 +1,13 @@
 # Taxi_Surge_Pricing
 TED is devoted to spreading powerful ideas on just about any topic. These datasets contain over 4,000 TED talks including transcripts in many languages Founded in 1984 by Richard Salman as a nonprofit organization that aimed at bringing experts from the fields of Technology, Entertainment, and Design together, TED Conferences have gone on to become the Mecca of ideas from virtually all walks of life. As of 2015, TED and its sister TEDx chapters have published more than 2000 talks for free consumption by the masses and its speaker list boasts of the likes of Al Gore, Jimmy Wales, Shahrukh Khan, and Bill Gates.
 
-# Dataset info
+**Dataset info**
 
 Number of records: 4,005
 
 Number of attributes: 19
 
-Features information:
+**Features information:**
 
 The dataset contains features like:
 
@@ -40,7 +40,7 @@ So, our main goal here is to find or generate some numerical or categorical feat
 Prerequisites
 
 Good understanding of ML algorithms
-Technologies used
+**Technologies used**
 
 IDE- Google colab
 Project Work flow
