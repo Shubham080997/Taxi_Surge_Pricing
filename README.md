@@ -73,7 +73,7 @@ Can be used for modelling purposes
 
 **Reasons for surge pricing**
 
-The reasons for surge pricing are:
+
 ● normal peak-hours
 
 ● bad weather conditions (rain, snow,
