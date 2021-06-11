@@ -40,7 +40,7 @@ So, our main goal here is to find or generate some numerical or categorical feat
 Prerequisites
 
 Good understanding of ML algorithms
-**Technologies used**
+Technologies used
 
 IDE- Google colab
 Project Work flow
