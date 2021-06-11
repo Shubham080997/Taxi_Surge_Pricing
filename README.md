@@ -33,32 +33,41 @@ would in turn help them in matching the
 right cabs with the right customers quickly
 and efficiently.
 ● Trip_ID: ID for TRIP
+
 ● Trip_Distance: The distance for the
 trip requested by the customer
+
 ● TypeofCab: Category of the cab
 requested by the customer
+
 ● CustomerSinceMonths: Customer
 using cab services since n months; 0
 month means the current month
+
 ● LifeStyleIndex: Proprietary index
 created by Sigma Cabs showing the
 lifestyle of the customer based on
 their behaviour
+
 ● ConfidenceLifeStyle_Index:
 Category showing confidence on the
 index mentioned above
-Destination_Type: Sigma Cabs
-divides any destination into one of
-the 14 categories.
+
 ● Customer_Rating: Average of
 lifetime ratings of the customer till
 date CancellationLast1Month:
 Number of trips cancelled by the
 customer in last 1 month
+
+
 ● Var1, Var2 and Var3: Continuous
 variables masked by the company.
 Can be used for modelling purposes
+
+
 ● Gender: Gender of the customer
+
+
 ● SurgePricingType: Target (can be of
 3 types) - DV
 
@@ -66,10 +75,14 @@ Can be used for modelling purposes
 
 The reasons for surge pricing are:
 ● normal peak-hours
+
 ● bad weather conditions (rain, snow,
 etc)
+
 ● events (concerts, movie-premiere)
+
 ● traffic conditions
+
 ● unseen emergencies and so on.
 
 **How Surge pricing works**
@@ -81,13 +94,16 @@ weather, rush hour, and special events, for
 instance, may cause unusually large
 numbers of people to want to request a
 ride with Sigma all at the same time.
+
+
 ● Prices go up
 In these cases of very high demand, prices
 may increase to help ensure that those who
 need a ride can get one. This system is
-
 called surge pricing, and it lets the app
 continue to be a reliable choice.
+
+
 ● Riders pay more or wait
 Whenever rates are raised due to surge
 pricing, the app lets riders know. Some
