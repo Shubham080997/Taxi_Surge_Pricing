@@ -86,6 +86,8 @@ etc)
 ● unseen emergencies and so on.
 
 **How Surge pricing works**
+
+
 ● Demand for rides increases
 There are times when so many people are
 requesting rides that there aren’t enough cars
