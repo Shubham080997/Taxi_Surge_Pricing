@@ -1,67 +1,96 @@
 # Taxi_Surge_Pricing
-TED is devoted to spreading powerful ideas on just about any topic. These datasets contain over 4,000 TED talks including transcripts in many languages Founded in 1984 by Richard Salman as a nonprofit organization that aimed at bringing experts from the fields of Technology, Entertainment, and Design together, TED Conferences have gone on to become the Mecca of ideas from virtually all walks of life. As of 2015, TED and its sister TEDx chapters have published more than 2000 talks for free consumption by the masses and its speaker list boasts of the likes of Al Gore, Jimmy Wales, Shahrukh Khan, and Bill Gates.
 
-**Dataset info**
+The cab platforms adjust their prices using a
+specific algorithm which is real time and
+dynamic known as “Surge Pricing” or
+“Dynamic Pricing”. We were provided with
+three such already classified labels in our
+data set.
+Our experiment can help understand what
+could be the reason for the classification of
+such labels by feature selection, data
+analysis and prediction with machine
+learning algorithms taking into account
+previous trends to determine the correct
+classification.
 
-Number of records: 4,005
+**Problem Statement**
 
-Number of attributes: 19
+Data provided by an Indian cab aggregator
+service Sigma Cabs. Their customers can
+download their app on smartphones and
+book a cab from anywhere in the cities they
+operate in. They, in turn, search for cabs
+from various service providers and provide
+the best option to their clients across
+available options. They have been in
+operation for a little less than a year now.
+During this period, they have captured surge
+pricing types from the service providers.The main objective is to build a predictive
+model, which could help them in predicting
+the surge pricing type proactively. This
+would in turn help them in matching the
+right cabs with the right customers quickly
+and efficiently.
+● Trip_ID: ID for TRIP
+● Trip_Distance: The distance for the
+trip requested by the customer
+● TypeofCab: Category of the cab
+requested by the customer
+● CustomerSinceMonths: Customer
+using cab services since n months; 0
+month means the current month
+● LifeStyleIndex: Proprietary index
+created by Sigma Cabs showing the
+lifestyle of the customer based on
+their behaviour
+● ConfidenceLifeStyle_Index:
+Category showing confidence on the
+index mentioned above
+Destination_Type: Sigma Cabs
+divides any destination into one of
+the 14 categories.
+● Customer_Rating: Average of
+lifetime ratings of the customer till
+date CancellationLast1Month:
+Number of trips cancelled by the
+customer in last 1 month
+● Var1, Var2 and Var3: Continuous
+variables masked by the company.
+Can be used for modelling purposes
+● Gender: Gender of the customer
+● SurgePricingType: Target (can be of
+3 types) - DV
 
-**Features information:**
+**Reasons for surge pricing**
 
-The dataset contains features like:
+The reasons for surge pricing are:
+● normal peak-hours
+● bad weather conditions (rain, snow,
+etc)
+● events (concerts, movie-premiere)
+● traffic conditions
+● unseen emergencies and so on.
 
-talk_id: Talk identification number provided by TED
-title: Title of the talk
-speaker_1: First speaker in TED's speaker list
-all_speakers: Speakers in the talk
-occupations: Occupations of the speakers
-about_speakers: Blurb about each speaker
-recorded_date: Date the talk was recorded
-published_date: Date the talk was published to TED.com
-event: Event or medium in which the talk was given
-native_lang: Language the talk was given in
-available_lang: All available languages (lang_code) for a talk
-comments: Count of comments
-duration: Duration in seconds
-topics: Related tags or topics for the talk
-related_talks: Related talks (key='talk_id',value='title')
-url: URL of the talk
-description: Description of the talk
-transcript: Full transcript of the talk
-Target Variable :
+**How Surge pricing works**
+● Demand for rides increases
+There are times when so many people are
+requesting rides that there aren’t enough cars
+on the road to help take them all. Bad
+weather, rush hour, and special events, for
+instance, may cause unusually large
+numbers of people to want to request a
+ride with Sigma all at the same time.
+● Prices go up
+In these cases of very high demand, prices
+may increase to help ensure that those who
+need a ride can get one. This system is
 
-views: Contains Count of views of every talk
-The main objective is to build a predictive model, which could help in predicting the views of the videos uploaded on the TEDx website.
-For that we have to do some feature engineering as follows:
-
-Here, we have only 3 numerical columns in our dataset out of which 1 is our target variable and 2 can be used as features and rest all columns are either categorical or they contains textual data.
-So, our main goal here is to find or generate some numerical or categorical features using these columns.
-Prerequisites
-
-Good understanding of ML algorithms
-Technologies used
-
-IDE- Google colab
-Project Work flow
-Importing Libraries
-
-Loading the dataset
-
-Data Cleaning
-
-EDA on features
-
-Feature selection
-
-Fitting the regression models
-
-HyperParameter Tuning
-
-Evaluation Metrices of the model
-
-Final selection of the model
-
-Conclusion
-
-Sources This project is part of AlmaBetter Curriculum.
+called surge pricing, and it lets the app
+continue to be a reliable choice.
+● Riders pay more or wait
+Whenever rates are raised due to surge
+pricing, the app lets riders know. Some
+riders will choose to pay, while some will
+choose to wait a few minutes to see if the
+rates go back down.
